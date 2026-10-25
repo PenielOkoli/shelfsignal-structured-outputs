@@ -28,7 +28,7 @@ No supplied repository is yet verified as the submitted module 3 streaming-chat 
 
 | Module | Scope | Required evidence | Status |
 |---|---|---|---|
-| 4 | Structured outputs | Schema, typed UI, fallback states, rendering tests, live URL | Built and deployed in shelfsignal-structured-outputs; 28 tests pass; live AI awaits key; browser interaction/mobile QA outstanding |
+| 4 | Structured outputs | Schema, typed UI, fallback states, rendering tests, live URL | Built and deployed in shelfsignal-structured-outputs; 28 tests pass; live AI verified for both locales; browser interaction/mobile QA outstanding |
 | 5 | Tool calling | Safe tool schemas, action previews, approval gate, server validation, progress/failure/rollback, logs | Next after number 4; not started |
 | 6 | Retrieval | Source selection, grounded answers, citations, source inspection, uncertainty, no-results | Planned |
 | 7 | Supervised agent | Visible plan, approval, pause/resume/cancel, blocked/failed states, activity log | Planned |

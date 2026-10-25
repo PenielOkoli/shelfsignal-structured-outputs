@@ -10,13 +10,13 @@ This is a **new repository and separate Vercel deployment** continuing [the earl
 
 - Repository: https://github.com/PenielOkoli/shelfsignal-structured-outputs
 - Live app: https://shelfsignal-structured-outputs.vercel.app
-- [Deployment and remaining Groq configuration](docs/deployment.md)
+- [Deployment and Groq configuration](docs/deployment.md)
 - [Number 4 requirements and reviewer walkthrough](docs/modules/04/assessment.md)
 - [Implementation plan](docs/modules/04/plan.md)
 - [Verification evidence](docs/modules/04/verification.md)
 - [Remaining deliverables and repository policy](docs/roadmap.md)
 
-The app is deployed and automatically connected to this repository. TypeScript, all 28 tests, the production build, and live HTTP boundary checks pass. **Live AI still needs `GROQ_API_KEY` in this new Vercel project.** Browser interaction/mobile QA remains outstanding because browser use was disabled during verification.
+The app is deployed and automatically connected to this repository. TypeScript, all 28 tests, the production build, and live HTTP boundary checks pass. **Live Groq generation is configured and verified for en-NG and en-GB.** Browser interaction/mobile QA remains outstanding because browser use was disabled during verification.
 
 ## What to inspect
 

@@ -14,7 +14,8 @@ Implementation commit: `208c01784767f44eca6ce66d2a5a5e0ffa002709`.
 | Foreign Origin | HTTP 403 |
 | Wrong media type | HTTP 415 |
 | Oversized request | HTTP 413 |
-| Real Groq request, en-NG / en-GB | HTTP 503 configuration fallback: new project's key is absent |
+| Real Groq request, en-NG / en-GB | HTTP 200 in both locales; valid schema, three cards/priorities/actions, actual React rendering passed |
+| Node.js configuration | Project and deployment both use 22.x, matching package.json |
 | Browser initial page | Live sample cards, catalog table, checkboxes, source label, number-4 footer, and key-pending indicator observed in accessibility snapshot |
 | Interactive lab / viewport QA | Not completed: browser use was disabled in Work settings before interactions could run |
 
@@ -35,4 +36,4 @@ The deployment verifier writes `live-verification.json`. With `--live`, it recor
 
 ## Submission status
 
-Implementation, repository, automatic deployment, and automated checks are complete. Final live-AI verification awaits the learner's server-side key configuration and redeployment. Browser interaction/mobile review remains outstanding. Do not describe either as passed.
+Implementation, repository, automatic deployment, and automated checks are complete. Live-AI verification also passed after the sensitive Production key was configured and deployment `dpl_2BE216RkrcPPKSyJB7Nw3piCgUzY` reached Ready. Browser interaction/mobile review remains outstanding and must not be described as passed.

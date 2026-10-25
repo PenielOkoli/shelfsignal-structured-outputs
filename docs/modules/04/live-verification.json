@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-25T17:15:27.652Z",
+  "checkedAt": "2026-10-25T17:28:14.077Z",
   "url": "https://shelfsignal-structured-outputs.vercel.app",
   "checks": [
     {
@@ -40,15 +40,25 @@
     {
       "name": "live Groq",
       "locale": "en-NG",
-      "status": 503,
-      "code": "configuration"
+      "status": 200,
+      "source": "groq",
+      "schema": "valid",
+      "cards": 3,
+      "priorities": 3,
+      "actions": 3,
+      "reactRendering": "passed"
     },
     {
       "name": "live Groq",
       "locale": "en-GB",
-      "status": 503,
-      "code": "configuration"
+      "status": 200,
+      "source": "groq",
+      "schema": "valid",
+      "cards": 3,
+      "priorities": 3,
+      "actions": 3,
+      "reactRendering": "passed"
     }
   ],
-  "liveVerified": false
+  "liveVerified": true
 }
