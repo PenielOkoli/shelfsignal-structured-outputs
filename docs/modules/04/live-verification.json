@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-25T17:15:27.652Z",
+  "url": "https://shelfsignal-structured-outputs.vercel.app",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "securityHeader": "nosniff"
+    },
+    {
+      "path": "/guide",
+      "status": 200,
+      "securityHeader": "nosniff"
+    },
+    {
+      "path": "/schema",
+      "status": 200,
+      "securityHeader": "nosniff"
+    },
+    {
+      "name": "invalid input",
+      "status": 400
+    },
+    {
+      "name": "malformed JSON",
+      "status": 400
+    },
+    {
+      "name": "wrong media type",
+      "status": 415
+    },
+    {
+      "name": "oversized body",
+      "status": 413
+    },
+    {
+      "name": "foreign origin",
+      "status": 403
+    },
+    {
+      "name": "live Groq",
+      "locale": "en-NG",
+      "status": 503,
+      "code": "configuration"
+    },
+    {
+      "name": "live Groq",
+      "locale": "en-GB",
+      "status": 503,
+      "code": "configuration"
+    }
+  ],
+  "liveVerified": false
+}

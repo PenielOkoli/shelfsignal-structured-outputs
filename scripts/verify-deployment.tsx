@@ -51,5 +51,6 @@ async function main() {
   } else evidence.liveVerified = 'not requested';
   writeFileSync('docs/modules/04/live-verification.json', JSON.stringify(evidence, null, 2) + '\n');
   console.log(JSON.stringify(evidence, null, 2));
+  if (evidence.liveVerified === false) process.exitCode = 1;
 }
 main().catch(error => { console.error(error instanceof Error ? error.message : 'Verification failed'); process.exitCode = 1; });
