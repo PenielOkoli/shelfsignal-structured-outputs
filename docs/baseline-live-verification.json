@@ -1,0 +1,101 @@
+{
+  "verifiedAt": "2026-10-24T14:43:22.797Z",
+  "url": "https://shelfsignal-phase-2.vercel.app",
+  "provider": "Groq",
+  "model": "openai/gpt-oss-20b",
+  "method": "Live production API calls, local schema validation and actual React component server rendering",
+  "results": [
+    {
+      "locale": "en-NG",
+      "httpStatus": 200,
+      "source": "groq",
+      "validation": "valid",
+      "cards": 3,
+      "priorities": 3,
+      "actions": 3,
+      "tableRendered": true,
+      "checkboxesRendered": true
+    },
+    {
+      "locale": "en-GB",
+      "httpStatus": 200,
+      "source": "groq",
+      "validation": "valid",
+      "cards": 3,
+      "priorities": 3,
+      "actions": 3,
+      "tableRendered": true,
+      "checkboxesRendered": true
+    }
+  ],
+  "observedFailure": "An initial en-GB request returned HTTP 502 with the generic provider fallback. A later retry is recorded above. The provider error cause was not determined.",
+  "exampleOutput": {
+    "schemaVersion": "1.0",
+    "locale": "en-GB",
+    "currency": "NGN",
+    "summary": {
+      "title": "Weekend Welcome Display",
+      "narrative": "A simple, eye‑catching setup that highlights versatile gift ideas for friends and family, encouraging impulse picks at checkout."
+    },
+    "cards": [
+      {
+        "productId": "mug",
+        "headline": "Cozy Coffee Companion",
+        "description": "A peach‑tinted ceramic mug perfect for weekend mornings or a thoughtful house‑warming gift.",
+        "placement": "eye-level",
+        "label": "gift idea"
+      },
+      {
+        "productId": "tote",
+        "headline": "Daily Market Tote",
+        "description": "Sage canvas tote with sturdy handles, ideal for groceries or as a stylish carryall.",
+        "placement": "front-table",
+        "label": "shopping essential"
+      },
+      {
+        "productId": "notebook",
+        "headline": "Ideas Notebook",
+        "description": "Lilac notebook for jotting thoughts, recipes, or travel plans – a practical present for any creative mind.",
+        "placement": "checkout",
+        "label": "quick pick"
+      }
+    ],
+    "priorities": [
+      {
+        "productId": "mug",
+        "priority": "feature",
+        "reason": "High stock and universal appeal make it a natural front‑line product."
+      },
+      {
+        "productId": "tote",
+        "priority": "support",
+        "reason": "Durable design supports frequent use, boosting repeat visits."
+      },
+      {
+        "productId": "notebook",
+        "priority": "watch",
+        "reason": "Limited stock invites urgency, encouraging timely purchase."
+      }
+    ],
+    "actions": [
+      {
+        "id": "display",
+        "title": "Arrange by Color",
+        "detail": "Place the mug, tote, and notebook in a linear layout matching their colors to create a cohesive look.",
+        "effort": "15-min"
+      },
+      {
+        "id": "signage",
+        "title": "Add Labels",
+        "detail": "Attach small, clear labels beside each item to highlight gift potential.",
+        "effort": "5-min"
+      },
+      {
+        "id": "stock-check",
+        "title": "Confirm Inventory",
+        "detail": "Verify remaining stock before display set‑up to avoid out‑of‑stock situations.",
+        "effort": "15-min"
+      }
+    ]
+  }
+}
